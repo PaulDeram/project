@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paul's Project</title>
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+  </head>
+  <body>
+    <section id="returning">
+      <h1>Login</h1>
+      <form method="POST" action="/login" >
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="Enter your e-mail here">
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" placeholder="Enter your password here">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="newuser">
+      <h1>New User?</h1>
+      <form method="POST" action="/signup">
+        <label for="first-name">First Name: </label>
+        <input type="text" name="first-name" placeholder="Enter your first name here">
+        <br>
+        <br>
+        <label for="last-name">Last Name: </label>
+        <input type="text" name="last-name" placeholder="Enter your last name here">
+        <br>
+        <br>        
+        <label for="newemail">Email: </label>
+        <input type="email" name="newemail" placeholder="Enter your e-mail here">
+        <br>
+        <br>        
+        <label for="newpw1">Password: </label>
+        <input type="password" name="newpw1" placeholder="Enter your password here">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
