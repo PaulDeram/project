@@ -18,3 +18,11 @@ section {
   float: left;     
   display: inline-block; 
 }
+
+input[type=radio] {
+    width: 50px;
+}
+
+#profile{
+  color: rgb(255,255,255);
+}
