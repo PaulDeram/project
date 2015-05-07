@@ -6,38 +6,31 @@
     <title>Login Page</title>
   </head>
   <body>
-    <section id="returning">
-      <h1>Login</h1>
-      <form method="POST" action="/login" >
-        <label for="email">Email: </label>
-        <input type="email" name="email" placeholder="Enter your e-mail here">
-        <br>
-        <br>
-        <label for="password">Password: </label>
-        <input type="password" name="password" placeholder="Enter your password here">
-        <br>
-        <br>
-        <input type="submit" value="Login" class="btn btn-success">
-      </form>
-    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <section id="returning">
+            <h1>Login</h1>
+            <form method="POST" action="/login" >
+              <input type="email" name="email" placeholder="E-mail">
+              <br>
+              <input type="password" name="password" placeholder="Password">
+              <br>
+              <br>
+              <input type="submit" value="Login" class="btn btn-success">
+            </form>
+          </section>
+        </div>
     <section id="newuser">
       <h1>New User?</h1>
       <form method="POST" action="/signup">
-        <label for="first-name">First Name: </label>
-        <input type="text" name="first-name" placeholder="Enter your first name here">
+        <input type="text" name="first-name" placeholder="First Name">
         <br>
-        <br>
-        <label for="last-name">Last Name: </label>
-        <input type="text" name="last-name" placeholder="Enter your last name here">
-        <br>
-        <br>        
-        <label for="newemail">Email: </label>
-        <input type="email" name="newemail" placeholder="Enter your e-mail here">
-        <br>
-        <br>        
-        <label for="newpw1">Password: </label>
-        <input type="password" name="newpw1" placeholder="Enter your password here">
-        <br>
+        <input type="text" name="last-name" placeholder="Last Name">
+        <br>       
+        <input type="email" name="newemail" placeholder="E-mail">
+        <br>       
+        <input type="password" name="newpw1" placeholder="Password">
         <br>
         <input type="submit" value="Register" class="btn btn-success">
       </form>
